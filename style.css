@@ -1,0 +1,257 @@
+body{background-color: lightblue;}
+
+a{text-decoration: none;
+  color: black;}
+
+  html{
+    overflow-y: scroll;
+  }
+
+
+#Header{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+   width: 100%;
+   position: fixed;
+    top: 0;
+    left: 0;
+    text-align: right;
+}
+
+#Nom{ flex: 1;
+  flex-grow: 3;
+  margin-right: 15%;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+#Curriculum{font-family: 'Open Sans', sans-serif;}
+
+#Contenidor_principal{
+	background-color: white;
+	margin: auto;
+  margin-top: 100px;
+	padding: 2vh;
+	align-items: center;
+	box-sizing: border-box; 
+	border: 3px solid darkblue;
+	box-shadow: 1px 1px 8px 0px #000000;
+	border-radius: 10px;
+}
+
+#Logos{
+  text-align: right;
+  width: 100%;
+  margin: auto;
+  word-spacing: 2px;
+}
+.center{
+  font-size: 50px;
+  text-align: center;
+}
+.left{
+  margin-right: 87.5%;
+}
+
+.Imatges{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+.Flexbox1{
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+.Flexbox2{
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
+.Flexbox3{
+  padding-right: 5px;
+  padding-top: 2px;
+}
+.Flexbox4{
+  padding-left: 5px;
+  padding-top: 2px;
+}
+.zoom {
+  height: 100%;
+    transition: transform .4s; 
+}
+
+ 
+.zoom:hover {
+    transform: scale(1.2); 
+}
+.Parts_Curriculum{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.button{
+  background-color: lightblue; 
+  border: 2px solid #008CBA;  color: black; 
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button:hover {
+  background-color: #00B3EB;
+  box-shadow: 0 9px #999;
+  color: white;
+}
+.button:active {
+  background-color: #008EBA;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#contenidor_Botons {
+  border: 1px solid blueviolet;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  min-width: auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+
+}
+.Sep_botons{
+  display: inline-flex  ;
+  margin-right: 10px;
+  margin left: 50%;
+  margin-top: 15px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 100px;
+  height: 50%;
+  width: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text_inici{
+  display: inline-block ;
+}
+.FotoMia{
+  float: right;
+ text-align: right;
+ }
+.Contenidor2{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  justify-content: center;
+}
+.pagines{
+  font-family: 'Montserrat';
+  display: flex;
+  min-width: 100px;
+  min-height: 100px;
+  width: 820px;
+  height: 820px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  flex-direction: row;
+}
+.Fondo_Imagenes{
+  background-color:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  }
+#img_Modelatge{
+  background-image: url(Feines/Escaleras_Calamar.png);
+}
+#img_Modelatge:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+#img_Animacions{
+  background-image: url(Feines/Escaleras_Calamar.png);
+}
+#img_Animacions:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+#img_Concepts{
+  background-image: url(Feines/Escaleras_Calamar.png);
+}
+#img_Concepts:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+#img_Jocs{
+  background-image: url(Feines/Escaleras_Calamar.png);
+}
+#img_Jocs:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.pagines:hover .titol{
+  opacity: 100%;
+}
+.pagines:hover{
+  background-color:rgba(0, 0, 0, 0.6);
+  transition-duration: 0.4s;
+}
+.pagines:hover .txt_img{
+  opacity: 100%;
+}
+.titol{
+  font-size: 50px;
+  opacity: 0%;
+  transition-duration: 0.4s;
+}
+#containers{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 2.6vh;
+}
+#containers_2{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 3vh;
+  padding-left: 50px;
+}
+
+
+
