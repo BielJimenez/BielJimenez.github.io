@@ -218,21 +218,21 @@ a{text-decoration: none;
   transform: scale(1.1);
 }
 #img_Animacions{
-  background-image: url(Images/Animacions/Animació_Portada.png);
+  background-image: url(Images/Animacions/Animació_Portada.PNG);
 }
 #img_Animacions:hover{
   transition: 0.5s;
   transform: scale(1.1);
 }
 #img_Texturing{
-  background-image: url(Images/Texturing/Pokeball_Texturing.png);
+  background-image: url(Images/Texturing/Pokeball_Texturing.PNG);
 }
 #img_Texturing:hover{
   transition: 0.5s;
   transform: scale(1.1);
 }
 #img_Jocs{
-  background-image: url(Images/Jocs/Pong.png);
+  background-image: url(Images/Jocs/Pong.PNG);
 }
 #img_Jocs:hover{
   transition: 0.5s;
