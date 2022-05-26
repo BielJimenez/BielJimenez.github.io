@@ -57,6 +57,7 @@ a{text-decoration: none;
 }
 
 .Imatges{
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -64,18 +65,32 @@ a{text-decoration: none;
   width: 100%;
 }
 .Flexbox1{
+  min-width: 400px
+  max-width: 800px;
   padding-right: 5px;
   padding-bottom: 2px;
 }
 .Flexbox2{
+  min-width: 400px
+  max-width: 800px;
   padding-left: 5px;
   padding-bottom: 2px;
 }
 .Flexbox3{
+  min-width: 400px
+  max-width: 800px;
   padding-right: 5px;
   padding-top: 2px;
 }
 .Flexbox4{
+  min-width: 400px
+  max-width: 800px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+.Flexbox5{
+  min-width: 400px
+  max-width: 800px;
   padding-left: 5px;
   padding-top: 2px;
 }
@@ -196,28 +211,28 @@ a{text-decoration: none;
   background-position: 50% 50%;
   }
 #img_Modelatge{
-  background-image: url(Feines/Escaleras_Calamar.png);
+  background-image: url(Images/Modelats/Escaleras_Calamar.png);
 }
 #img_Modelatge:hover{
   transition: 0.5s;
   transform: scale(1.1);
 }
 #img_Animacions{
-  background-image: url(Feines/Escaleras_Calamar.png);
+  background-image: url(Images/Animacions/Animació_Portada.png);
 }
 #img_Animacions:hover{
   transition: 0.5s;
   transform: scale(1.1);
 }
-#img_Concepts{
-  background-image: url(Feines/Escaleras_Calamar.png);
+#img_Texturing{
+  background-image: url(Images/Texturing/Pokeball_Texturing.png);
 }
-#img_Concepts:hover{
+#img_Texturing:hover{
   transition: 0.5s;
   transform: scale(1.1);
 }
 #img_Jocs{
-  background-image: url(Feines/Escaleras_Calamar.png);
+  background-image: url(Images/Jocs/Pong.png);
 }
 #img_Jocs:hover{
   transition: 0.5s;
